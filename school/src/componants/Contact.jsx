@@ -30,7 +30,7 @@ export default function Contact() {
         textAlign="center"
         marginBottom={5}
         fontSize={{ base: "3xl", md: "4xl", lg: "5xl" }}
-        fontFamily="serif"
+        fontFamily="cursive"
         mr={{ base: 0, md: 20, lg: 40 }}
       >
         Contact Us

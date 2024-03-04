@@ -19,7 +19,7 @@ function Animation() {
         >
           <Heading
             size="2xl"
-            fontFamily="Alegreya sans, serif"
+            fontFamily="cursive"
             marginBottom={{ base: "2px", md: "20px" }}
           >
             Our Mission

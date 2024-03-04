@@ -14,11 +14,11 @@ export default function Intro() {
         // marginTop={"50px"}
         color={"red.700"}
         size={"3xl"}
-        fontFamily={"inherit"}
+        fontFamily={"cursive"}
       >
         Welcome to{" "}
       </Heading>
-      <Heading color={"red.700"} size={"2xl"} fontFamily={"inherit"}>
+      <Heading color={"red.700"} size={"2xl"} fontFamily={"cursive"}>
         The Apna School
       </Heading>
       <Box
@@ -27,7 +27,9 @@ export default function Intro() {
         marginTop={"20px"}
         border={"5px solid #4A8FD0"}
       ></Box>
-      <Heading size={"lg"}>"Empowering Minds, Shaping Futures."</Heading>
+      <Heading size={"lg"} fontFamily={"cursive"}>
+        "Empowering Minds, Shaping Futures"
+      </Heading>
       <Text
         fontFamily={"serif"}
         marginTop={"20px"}
