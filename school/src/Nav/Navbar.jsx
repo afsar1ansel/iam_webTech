@@ -50,7 +50,7 @@ export default function Simple() {
       <Box
         bg={useColorModeValue("gray.100", "gray.900")}
         px={4}
-        border={"1px solid black"}
+        // border={"1px solid black"}
         position={"sticky"}
         top={0}
         zIndex={999}
@@ -125,6 +125,18 @@ export default function Simple() {
                 
               >
               <Box>Rating</Box>
+              </Link>
+              <Link
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+
+              >
+                <Box>Contact</Box>
               </Link>
             </HStack>
           </HStack>
