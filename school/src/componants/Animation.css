@@ -31,6 +31,12 @@ svg {
   height: 60px;
 }
 
+@media screen and (max-width: 500px) {
+  .plane{
+    display: none;
+  }
+}
+
 /*Paper Plane: Animation*/
 .plane-container {
   -webkit-animation: paper-plane-scoping 2s alternate infinite;

@@ -90,7 +90,7 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box>Home</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"} >Home</Box>
               </Link>
               <Link
                 to="Intro"
@@ -101,7 +101,7 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box>Intro</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"} >Intro</Box>
               </Link>
               <Link
                 to="Animation"
@@ -112,7 +112,7 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box>Vision</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>Vision</Box>
               </Link>
               <Link 
                 to="Rating"
@@ -124,7 +124,7 @@ export default function Simple() {
                 activeStyle={{ color: "red" }}
                 
               >
-              <Box>Rating</Box>
+              <Box fontWeight={"bold"} letterSpacing={"2px"}>Rating</Box>
               </Link>
               <Link
                 to="Contact"
@@ -136,11 +136,11 @@ export default function Simple() {
                 activeStyle={{ color: "red" }}
 
               >
-                <Box>Contact</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>Contact</Box>
               </Link>
             </HStack>
           </HStack>
-          <Flex alignItems={"center"}>
+          {/* <Flex alignItems={"center"}>
             <Menu>
               <MenuButton
                 as={Button}
@@ -163,7 +163,7 @@ export default function Simple() {
                 <MenuItem>Link 3</MenuItem>
               </MenuList>
             </Menu>
-          </Flex>
+          </Flex> */}
         </Flex>
 
         {isOpen ? (
