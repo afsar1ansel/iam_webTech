@@ -90,7 +90,9 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box fontWeight={"bold"} letterSpacing={"2px"} >Home</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Home
+                </Box>
               </Link>
               <Link
                 to="Intro"
@@ -101,7 +103,9 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box fontWeight={"bold"} letterSpacing={"2px"} >Intro</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Intro
+                </Box>
               </Link>
               <Link
                 to="Animation"
@@ -112,9 +116,11 @@ export default function Simple() {
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
               >
-                <Box fontWeight={"bold"} letterSpacing={"2px"}>Vision</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Vision
+                </Box>
               </Link>
-              <Link 
+              <Link
                 to="Rating"
                 spy={true}
                 smooth={true}
@@ -122,9 +128,10 @@ export default function Simple() {
                 duration={500}
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
-                
               >
-              <Box fontWeight={"bold"} letterSpacing={"2px"}>Rating</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Rating
+                </Box>
               </Link>
               <Link
                 to="Contact"
@@ -134,9 +141,10 @@ export default function Simple() {
                 duration={500}
                 style={{ cursor: "pointer" }}
                 activeStyle={{ color: "red" }}
-
               >
-                <Box fontWeight={"bold"} letterSpacing={"2px"}>Contact</Box>
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Contact
+                </Box>
               </Link>
             </HStack>
           </HStack>
@@ -169,9 +177,71 @@ export default function Simple() {
         {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
+              <Link
+                to="Home"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+              >
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Home
+                </Box>
+              </Link>
+              <Link
+                to="Intro"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+              >
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Intro
+                </Box>
+              </Link>
+              <Link
+                to="Animation"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+              >
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Vision
+                </Box>
+              </Link>
+              <Link
+                to="Rating"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+              >
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Rating
+                </Box>
+              </Link>
+              <Link
+                to="Contact"
+                spy={true}
+                smooth={true}
+                offset={-50}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                activeStyle={{ color: "red" }}
+              >
+                <Box fontWeight={"bold"} letterSpacing={"2px"}>
+                  Contact
+                </Box>
+              </Link>
             </Stack>
           </Box>
         ) : null}
