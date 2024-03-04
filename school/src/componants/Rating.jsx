@@ -31,7 +31,7 @@ const Rating = () => {
       .map((_, index) => divRefs.current[index] || React.createRef());
 
     const handleScroll = () => {
-      if (window.scrollY >= 900) {
+      if (window.scrollY >= 1200) {
         const animationDuration = 4000;
         const framesPerSecond = 60;
 
@@ -72,10 +72,10 @@ const Rating = () => {
       display={"flex"}
       flexDirection={{ base: "column", md: "row", lg: "row", xl: "row" }}
       justifyContent={"center"}
-      gap={5}
+      gap={{ base: 20, md: 40, lg: 40, xl: 40 }}
       mt={20}
       backgroundColor={"#ebebeb"}
-      padding={{ base: "10px", md: "40px", lg: "40px", xl: "40px" }}
+      padding={"90px 7%"}
     >
       {counts.map((item, index) => (
         <div
