@@ -37,7 +37,7 @@ function Animation() {
           <Text>• enriched by our cultural heritage,</Text>
           <Text>• and equipped with leadership qualities.</Text>
           <Text>• committed to the service of our people</Text>
-          <Image width="50%" margin="auto" src="../kids.png" />
+          <Image width="50%" margin="auto" src="../kids2.png" />
         </Box>
       </Box>
 
